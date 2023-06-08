@@ -1,0 +1,270 @@
+{
+  "projects": [
+    {
+      "name": "Trang admin",
+      "categoryId": 1,
+      "date": "2023-02-21",
+      "author": "Đào Minh Ngọc",
+      "link": "https://duan1-admin.vercel.app/",
+      "album": [
+        "https://res.cloudinary.com/fashsion-brand/image/upload/v1676920226/portfolio/yu9bpicwlczdaih98oc3.png"
+      ],
+      "image": "C:\\fakepath\\2023-02-21.png",
+      "description": "Project đầy đủ html",
+      "id": 2
+    },
+    {
+      "name": "Project về ăn uống",
+      "date": "2023-02-21",
+      "categoryId": "2",
+      "author": "Đào Minh Ngọc",
+      "link": "https://duan2-food.vercel.app/",
+      "album": [
+        "https://res.cloudinary.com/fashsion-brand/image/upload/v1676920317/portfolio/lx2yon1rryv5udcca0bn.png"
+      ],
+      "image": "",
+      "description": "Project chủ yếu dcd code bằng html\n                            ",
+      "id": 3
+    },
+    {
+      "name": "Project về ăn uống",
+      "categoryId": 2,
+      "date": "2023-02-21",
+      "author": "Đào Minh Ngọc",
+      "link": "https://duan2-food.vercel.app/",
+      "album": [
+        "https://res.cloudinary.com/fashsion-brand/image/upload/v1676920320/portfolio/ljvjz8rimmmmhumhbar0.png"
+      ],
+      "image": "C:\\fakepath\\2023-02-19.png",
+      "description": "Project chủ yếu dcd code bằng html",
+      "id": 4
+    },
+    {
+      "name": "Project về portfolio",
+      "date": "2023-02-21",
+      "categoryId": "4",
+      "author": "Đào Minh Ngọc",
+      "link": "https://duan3-view.vercel.app/",
+      "album": [
+        "https://res.cloudinary.com/fashsion-brand/image/upload/v1676920790/portfolio/nsavtmz6hrko0qiaatmm.png"
+      ],
+      "image": "",
+      "description": "Project đc thiết kế rất cẩn thận và chi tiết\n                            ",
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "name": "HTML",
+      "id": 1
+    },
+    {
+      "name": "JS",
+      "id": 2
+    },
+    {
+      "name": "PHP",
+      "id": 4
+    },
+    {
+      "name": "Javascript nâng cao",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "email": "daominhngoc@gmail.com",
+      "password": "$2a$10$bJuCWH..6EVA9uXvHLWtjuNqJ6LPvvzXQFqiScvaPex3byy39HWTG",
+      "id": 1
+    },
+    {
+      "email": "d@gmail.com",
+      "password": "$2a$10$RcI99kT1RG0Mpk6ewk/A8e1Z0yHivEpV9kmAj2/7e/HyLIPfConDO",
+      "id": 2
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "title": "Hello, <br> I am Đào Minh Ngọc",
+      "content": "High level experience in web design and development knowledge, producing quality work",
+      "album": [
+        "https://res.cloudinary.com/fashsion-brand/image/upload/v1677003861/portfolio/jqfcw2bdpy9vcg5mciyr.jpg"
+      ],
+      "fullname": "Đào Minh Ngọc",
+      "job": "Frontend Developer"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "title": "Frontend developer",
+      "content": "More than 4 years",
+      "icon": "fa-duotone fa-brackets-curly"
+    },
+    {
+      "id": 2,
+      "title": "Designer",
+      "content": "More than 5 years",
+      "icon": "fa-solid fa-swatchbook mr-4"
+    },
+    {
+      "id": 3,
+      "title": "Backend developer",
+      "content": "More than 2 years",
+      "icon": "fa-solid fa-database mr-4"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Ui/Ux Design",
+      "icon": "fa-solid fa-box text-[60px]",
+      "content": [
+        {
+          "id": 1,
+          "icon": "fa-solid fa-angles-right",
+          "content1": "HTML/CSS",
+          "content2": "JavaScript",
+          "content3": "Animation",
+          "content4": "WordPress",
+          "content5": "React"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Development",
+      "content": "More than 5 years",
+      "icon": "fa-solid fa-code text-[60px]"
+    },
+    {
+      "id": 3,
+      "title": "Illustration",
+      "content": "More than 2 years",
+      "icon": "fa-solid fa-bezier-curve text-[60px]"
+    },
+    {
+      "id": 4,
+      "title": "SEO Marketing",
+      "content": "More than 4 years",
+      "icon": "fa-solid fa-magnifying-glass text-[60px]"
+    },
+    {
+      "id": 5,
+      "title": "Data Analysis",
+      "content": "More than 5 years",
+      "icon": "fa-solid fa-magnifying-glass-chart text-[60px]"
+    },
+    {
+      "id": 6,
+      "title": "Brand Identity",
+      "content": "More than 2 years",
+      "icon": "fa-solid fa-bandage text-[60px]"
+    }
+  ],
+  "serviceCategories": [
+    {
+      "id": 1,
+      "icon": "fa-solid fa-angles-right",
+      "content1": "Landing Pages",
+      "content2": "User Flow",
+      "content3": "Wireframing",
+      "content4": "Prototyping",
+      "content5": "Mobile App Design"
+    },
+    {
+      "id": 2,
+      "content": [
+        {
+          "icon": "fa-solid fa-angles-right",
+          "content1": "HTML/CSS",
+          "content2": "JavaScript",
+          "content3": "Animation",
+          "content4": "WordPress",
+          "content5": "React"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "fa-solid fa-bezier-curve",
+      "content1": "Character Design",
+      "content2": "Icon Set",
+      "content3": "Illustration Guide",
+      "content4": "MIllustration Setor",
+      "content5": "Motion Graphic"
+    },
+    {
+      "id": 4,
+      "icon": "fa-solid fa-angles-right",
+      "content1": "White Hat SEO",
+      "content2": "Black Hat SEO",
+      "content3": "Grey Hat SEO",
+      "content4": "Negative SEO",
+      "content5": "On-Page SEO"
+    },
+    {
+      "id": 5,
+      "icon": "fa-solid fa-angles-right",
+      "content1": "Diagnostic Analysis",
+      "content2": "Predictive Analysis",
+      "content3": "Prescriptive Analysis",
+      "content4": "Risk Assessment",
+      "content5": "Sales Forecasting"
+    },
+    {
+      "id": 6,
+      "icon": "fa-solid fa-angles-right",
+      "content1": "Brand Architecture",
+      "content2": "Brand Authenticity",
+      "content3": "Brand Awareness",
+      "content4": "Brand Management",
+      "content5": "Brand Metrics"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "album": [
+        "https://res.cloudinary.com/fashsion-brand/image/upload/v1676833082/portfolio/ropmeuwvttfhrdj4rbbf.png"
+      ],
+      "date": "2023-02-20",
+      "image": "",
+      "business": "Frontend",
+      "title": "Don't wait until you officially started business.",
+      "username": "ngoc",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.      Lorem Ipsum is simply dummy text of the printing and typesetting indust has been the industry's standard dummy text ever since the 1500s, when an took a galley of type and scrambled electronic. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled electronic.",
+      "heartId": 124,
+      "commentId": 12345
+    },
+    {
+      "id": 2,
+      "album": [
+        "https://res.cloudinary.com/fashsion-brand/image/upload/v1676830241/portfolio/cqzrrcg5o1xxtnjq5an9.png"
+      ],
+      "date": "2023-02-20",
+      "image": "",
+      "business": "Frontend",
+      "title": "Don't wait until you officially started business.",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.      Lorem Ipsum is simply dummy text of the printing and typesetting indust has been the industry's standard dummy text ever since the 1500s, when an took a galley of type and scrambled electronic. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled electronic.",
+      "username": "ngoc",
+      "heartId": 124,
+      "commentId": 12345
+    },
+    {
+      "id": 3,
+      "album": [
+        "https://res.cloudinary.com/fashsion-brand/image/upload/v1676611676/portfolio/IMG_7574_bw9vir.jpg"
+      ],
+      "date": "2022-02-25",
+      "image": "",
+      "business": "Frontend",
+      "title": "Don't wait until you officially started business.",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.      Lorem Ipsum is simply dummy text of the printing and typesetting indust has been the industry's standard dummy text ever since the 1500s, when an took a galley of type and scrambled electronic. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled electronic.",
+      "username": "ngoc",
+      "heartId": 124,
+      "commentId": 12345
+    }
+  ]
+}
