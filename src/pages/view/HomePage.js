@@ -6,7 +6,7 @@ import { useEffect, useState } from "../../lib";
 const HomePage = () => {
   const [profiles, setFrofile] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/profiles")
+    fetch("https://unicode-json-server-iota.vercel.app/profiles")
       .then((res) => res.json())
       .then((data) => setFrofile(data));
   }, []);
