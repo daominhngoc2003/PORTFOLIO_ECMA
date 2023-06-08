@@ -22,7 +22,7 @@ import BlogPage from "./pages/view/BlogPage";
 import PortfolioDetailPage from "./pages/view/PortfolioDetailPage";
 import BlogDetailPage from "./pages/view/BlogDetailPage";
 import Signin from "./pages/view/accounts/Signin";
-import Register from "./pages/view/accounts/register";
+import Register from "./pages/view/accounts/Register";
 
 const app = document.getElementById("app");
 
