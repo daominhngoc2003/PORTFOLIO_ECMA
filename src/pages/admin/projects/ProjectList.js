@@ -9,17 +9,17 @@ const ProjectList = () => {
   const [categories, setcategory] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/categories`)
+      .get(`https://unicode-json-server-iota.vercel.app/categories`)
       .then(({ data }) => setcategory(data));
   }, []);
   // const onHandleclick = (id) => {
   //   axios
-  //     .put(`http://localhost:3000/categories/${id}?_embed=projects`)
+  //     .put(`https://unicode-json-server-iota.vercel.app/categories/${id}?_embed=projects`)
   //     .then(({ data }) => setProject(data.projects));
   // };
   useEffect(() => {
     axios
-      .get("http://localhost:3000/projects")
+      .get("https://unicode-json-server-iota.vercel.app/projects")
       .then(({ data }) => setProject(data));
   }, []);
   // XÓA
@@ -33,7 +33,9 @@ const ProjectList = () => {
         const newProject = projects.filter((project) => project.id != id);
         setProject(newProject);
         // Xóa server
-        axios.delete(`http://localhost:3000/projects/${id}`);
+        axios.delete(
+          `https://unicode-json-server-iota.vercel.app/projects/${id}`
+        );
       });
     }
   });

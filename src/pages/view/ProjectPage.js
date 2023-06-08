@@ -5,7 +5,7 @@ import { useEffect, useState } from "../../lib";
 const ProjectPage = () => {
   const [projects, setprojects] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/projects")
+    fetch("https://unicode-json-server-iota.vercel.app/projects")
       .then((response) => response.json())
       .then((data) => setprojects(data));
   }, []);

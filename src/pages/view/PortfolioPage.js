@@ -10,25 +10,27 @@ const PortfolioPage = () => {
   // console.log(projects);
   //CATEGORY
   useEffect(() => {
-    fetch("http://localhost:3000/categories")
+    fetch("https://unicode-json-server-iota.vercel.app/categories")
       .then((response) => response.json())
       .then((data) => setCategories(data));
   }, []);
 
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/projects")
+    fetch("https://unicode-json-server-iota.vercel.app/projects")
       .then((response) => response.json())
       .then((data) => setProjects(data));
   }, []);
 
   const onHandleclick = (id) => {
     if (id == 0) {
-      fetch("http://localhost:3000/projects")
+      fetch("https://unicode-json-server-iota.vercel.app/projects")
         .then((response) => response.json())
         .then((data) => setProjects(data));
     } else {
-      fetch(`http://localhost:3000/categories/${id}?_embed=projects`)
+      fetch(
+        `https://unicode-json-server-iota.vercel.app/categories/${id}?_embed=projects`
+      )
         .then((response) => response.json())
         .then(({ projects }) => setProjects(projects));
     }

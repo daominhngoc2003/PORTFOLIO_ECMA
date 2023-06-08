@@ -11,7 +11,7 @@ const CategoryAdd = () => {
       const formdata = {
         name: name.value,
       };
-      fetch("http://localhost:3000/categories/", {
+      fetch("https://unicode-json-server-iota.vercel.app/categories/", {
         method: "POST",
         headers: {
           "content-type": "application/json",

@@ -6,7 +6,7 @@ import { useEffect, useState } from "../../lib";
 const BlogPage = () => {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/blogs")
+    fetch("https://unicode-json-server-iota.vercel.app/blogs")
       .then((response) => response.json())
       .then((data) => setBlogs(data));
   }, []);

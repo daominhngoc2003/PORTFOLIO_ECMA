@@ -6,7 +6,7 @@ const ProjectDetail = ({ id }) => {
   console.log(id);
   const [projects, setprojects] = useState({});
   useEffect(() => {
-    fetch("http://localhost:3000/projects/" + id)
+    fetch("https://unicode-json-server-iota.vercel.app/projects/" + id)
       .then((response) => response.json())
       .then((data) => setprojects(data));
   }, []);

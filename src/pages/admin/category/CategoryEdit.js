@@ -6,7 +6,7 @@ const CategoryEdit = ({ id }) => {
   const [categories, setcategory] = useState({});
   console.log(categories);
   useEffect(() => {
-    fetch("http://localhost:3000/categories/" + id)
+    fetch("https://unicode-json-server-iota.vercel.app/categories/" + id)
       .then((response) => response.json())
       .then((data) => setcategory(data));
   }, []);
@@ -18,7 +18,7 @@ const CategoryEdit = ({ id }) => {
       const newdata = {
         name: name.value,
       };
-      fetch("http://localhost:3000/categories/" + id, {
+      fetch("https://unicode-json-server-iota.vercel.app/categories/" + id, {
         method: "PUT",
         headers: {
           "content-type": "application/json",

@@ -7,7 +7,7 @@ const ProjectAdd = () => {
   const [categories, setCategories] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:3000/categories")
+      .get("https://unicode-json-server-iota.vercel.app/categories")
       .then(({ data }) => setCategories(data));
   }, []);
   useEffect(() => {
@@ -37,7 +37,7 @@ const ProjectAdd = () => {
       console.log(idcategory);
 
       axios
-        .post("http://localhost:3000/projects", formData)
+        .post("https://unicode-json-server-iota.vercel.app/projects", formData)
         .then(() => router.navigate("/admin/projects/"));
     });
   });

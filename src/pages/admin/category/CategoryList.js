@@ -5,7 +5,7 @@ import { useEffect, useState } from "../../../lib";
 const CategoryList = () => {
   const [categories, setcategory] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/categories")
+    fetch("https://unicode-json-server-iota.vercel.app/categories")
       .then((response) => response.json())
       .then((data) => setcategory(data));
   }, []);
@@ -20,7 +20,7 @@ const CategoryList = () => {
         setcategory(newcate);
 
         // Xóa server
-        fetch("http://localhost:3000/categories/" + id, {
+        fetch("https://unicode-json-server-iota.vercel.app/categories/" + id, {
           method: "DELETE",
         }).then(() => alert("Xóa thành công"));
       });

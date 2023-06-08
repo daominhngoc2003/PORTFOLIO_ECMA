@@ -6,12 +6,12 @@ const PortfolioDetailPage = ({ id }) => {
   const [projects, setProject] = useState({});
   const [categories, setCategories] = useState({});
   useEffect(() => {
-    fetch("http://localhost:3000/categories/" + id)
+    fetch("https://unicode-json-server-iota.vercel.app/categories/" + id)
       .then((response) => response.json())
       .then((data) => setCategories(data));
   }, []);
   useEffect(() => {
-    fetch("http://localhost:3000/projects/" + id)
+    fetch("https://unicode-json-server-iota.vercel.app/projects/" + id)
       .then((response) => response.json())
       .then((data) => setProject(data));
   }, []);

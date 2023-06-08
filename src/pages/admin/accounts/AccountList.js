@@ -7,7 +7,7 @@ const AccountList = () => {
   const [accounts, setaccounts] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:3000/accounts")
+      .get("https://unicode-json-server-iota.vercel.app/accounts")
       .then(({ data }) => setaccounts(data));
   }, []);
   useEffect(() => {
@@ -18,7 +18,9 @@ const AccountList = () => {
         const id = btn.dataset.id;
         setaccounts(accounts.filter((account) => account.id != +id));
 
-        axios.delete("http://localhost:3000/accounts/" + id);
+        axios.delete(
+          "https://unicode-json-server-iota.vercel.app/accounts/" + id
+        );
       });
     }
   });

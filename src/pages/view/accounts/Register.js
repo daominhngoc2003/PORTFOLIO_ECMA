@@ -16,7 +16,7 @@ const Register = () => {
       };
 
       axios
-        .post("http://localhost:3000/signup", formdata)
+        .post("https://unicode-json-server-iota.vercel.app/signup", formdata)
         .then(() => {
           alert(" Register successful😎");
           window.location.href = "/signin";

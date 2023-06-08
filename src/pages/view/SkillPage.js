@@ -6,7 +6,7 @@ const SkillPage = () => {
   const [skills, setSkill] = useState([]);
   console.log(skills);
   useEffect(() => {
-    fetch("http://localhost:3000/skills")
+    fetch("https://unicode-json-server-iota.vercel.app/skills")
       .then((response) => response.json())
       .then((data) => setSkill(data));
   }, []);

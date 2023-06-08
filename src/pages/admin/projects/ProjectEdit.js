@@ -10,14 +10,14 @@ const ProjectEdit = ({ id }) => {
   // CATEGORY
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/categories`)
+      .get(`https://unicode-json-server-iota.vercel.app/categories`)
       .then(({ data }) => setCategories(data));
   }, []);
 
   //PROJECT
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/projects/${id}`)
+      .get(`https://unicode-json-server-iota.vercel.app/projects/${id}`)
       .then(({ data }) => setProject(data));
   }, []);
 
@@ -57,7 +57,10 @@ const ProjectEdit = ({ id }) => {
         description: description.value,
       };
       axios
-        .put(`http://localhost:3000/projects/${id}`, formData)
+        .put(
+          `https://unicode-json-server-iota.vercel.app/projects/${id}`,
+          formData
+        )
         .then(() => router.navigate("/admin/projects"));
     });
   });

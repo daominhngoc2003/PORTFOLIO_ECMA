@@ -17,10 +17,12 @@ const Signin = () => {
         password: password.value,
       };
 
-      axios.post("http://localhost:3000/signin", formdata).then(() => {
-        alert("Login successful😘❤️");
-        window.location.href = "/";
-      });
+      axios
+        .post("https://unicode-json-server-iota.vercel.app/signin", formdata)
+        .then(() => {
+          alert("Login successful😘❤️");
+          window.location.href = "/";
+        });
     });
   });
 
